@@ -1,4 +1,4 @@
-package com.lld.version3;
+package com.lld.solid.version3;
 
 public class Main {
 
@@ -15,6 +15,6 @@ public class Main {
         Sparrow bird2 = new Sparrow("Khudbuddi chiddaiya", "Grey", 50);
         bird2.fly();
         bird2.dance();
-        bird.sound();
+        bird2.sound();
     }
 }

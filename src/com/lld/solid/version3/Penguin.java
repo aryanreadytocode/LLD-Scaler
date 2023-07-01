@@ -1,4 +1,4 @@
-package com.lld.version3;
+package com.lld.solid.version3;
 
 public class Penguin extends Bird implements Danceable, Soundable {
     public Penguin(String name, String colour, int weight) {

@@ -1,4 +1,4 @@
-package com.lld.version3;
+package com.lld.solid.version3;
 
 public class Sparrow extends Bird implements Flyable, Soundable, Danceable{
     public Sparrow(String name, String colour, int weight) {

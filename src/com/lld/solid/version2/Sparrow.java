@@ -1,4 +1,4 @@
-package com.lld.version2;
+package com.lld.solid.version2;
 
 public class Sparrow extends Bird{
 

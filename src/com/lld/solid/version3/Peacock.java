@@ -1,4 +1,4 @@
-package com.lld.version3;
+package com.lld.solid.version3;
 
 public class Peacock extends Bird implements Danceable, Soundable{
 

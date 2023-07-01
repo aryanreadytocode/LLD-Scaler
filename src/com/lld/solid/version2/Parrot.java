@@ -1,24 +1,24 @@
-package com.lld.version2;
+package com.lld.solid.version2;
 
-public class Pigeon extends Bird{
+public class Parrot extends Bird{
 
-    public Pigeon(String birdColor, int birdWeight, String birdName) {
+    public Parrot(String birdColor, int birdWeight, String birdName) {
         super(birdColor, birdWeight, birdName);
     }
 
     @Override
     public void fly() {
-        System.out.println("Pigeon flies");
+        System.out.println("Parrot flies");
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Pigeon coo");
+        System.out.println("Parrot talk");
     }
 
     @Override
     public void dance() {
-        System.out.println("Pigeon dances");
+        System.out.println("Parrot dances");
     }
 
     @Override

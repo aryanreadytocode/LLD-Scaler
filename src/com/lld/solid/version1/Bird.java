@@ -1,4 +1,4 @@
-package com.lld.version1;
+package com.lld.solid.version1;
 
 
 enum BirdType {PARROT, PIGEON, SPARROW, PEACOCK, CROW}

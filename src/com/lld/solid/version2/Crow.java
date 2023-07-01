@@ -1,24 +1,24 @@
-package com.lld.version2;
+package com.lld.solid.version2;
 
-public class Parrot extends Bird{
+public class Crow extends Bird{
 
-    public Parrot(String birdColor, int birdWeight, String birdName) {
+    public Crow(String birdColor, int birdWeight, String birdName) {
         super(birdColor, birdWeight, birdName);
     }
 
     @Override
     public void fly() {
-        System.out.println("Parrot flies");
+        System.out.println("Crow flies");
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Parrot talk");
+        System.out.println("Crow caw");
     }
 
     @Override
     public void dance() {
-        System.out.println("Parrot dances");
+        System.out.println("Crow dances");
     }
 
     @Override

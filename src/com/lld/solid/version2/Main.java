@@ -1,4 +1,4 @@
-package com.lld.version2;
+package com.lld.solid.version2;
 /*If you want to add non-flyable bird like penguin how you're going to manage fly method
 * in penguine class
 * Two option we have first keep fly method empty in Penguin class
