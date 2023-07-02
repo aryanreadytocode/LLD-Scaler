@@ -1,4 +1,4 @@
-package com.lld.singleton;
+package com.lld.designpattern.singleton;
 /*for multithreaded environment waiting time for thread has decreased*/
 public class DoubleLockCheckingSingleton {
 

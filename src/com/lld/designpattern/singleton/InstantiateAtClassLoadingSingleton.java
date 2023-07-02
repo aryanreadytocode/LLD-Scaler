@@ -1,4 +1,4 @@
-package com.lld.singleton;
+package com.lld.designpattern.singleton;
 
 /*Object creation is heavy work,
 * if it might not needed, still creating object at class loading time*/

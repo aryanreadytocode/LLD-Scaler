@@ -1,4 +1,4 @@
-package com.lld.singleton;
+package com.lld.designpattern.singleton;
 
 public class Singleton {
     private static Singleton instance = null;

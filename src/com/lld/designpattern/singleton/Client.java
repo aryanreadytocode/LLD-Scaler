@@ -1,6 +1,4 @@
-package com.lld.singleton;
-
-import java.util.Date;
+package com.lld.designpattern.singleton;
 
 public class Client extends Thread{
 

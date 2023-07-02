@@ -1,4 +1,4 @@
-package com.lld.singleton;
+package com.lld.designpattern.singleton;
 
 /*cons with this design is it increase the waiting time for multithreaded environment*/
 public class ThreadSafeSingleton {
