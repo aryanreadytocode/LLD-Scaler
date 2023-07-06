@@ -6,11 +6,13 @@ import java.util.List;
 public class Amazon {
 
     private List<OrderPlacedSubscriber> orderList;
+    private List<OrderCancelled> cancelList;
 
     private static Amazon instance;
 
     private Amazon() {
         this.orderList = new ArrayList<>();
+        this.cancelList = new ArrayList<>();
     }
 
     public void registerSubscriber(OrderPlacedSubscriber subscriber) {
@@ -21,8 +23,20 @@ public class Amazon {
         orderList.remove(subscriber);
     }
 
+    public void registerCancelSubscriber(OrderCancelled cancelled) {
+        cancelList.add(cancelled);
+    }
+
+    public void deRegisterCancelSubscriber(OrderCancelled cancelled) {
+        cancelList.remove(cancelled);
+    }
+
     public void orderPlaced() {
         orderList.forEach(OrderPlacedSubscriber::orderPlacedEvent);
+    }
+
+    public void onOrderCancelled() {
+        cancelList.forEach(OrderCancelled::onOrderCancelled);
     }
 
     public static Amazon getInstance() {
